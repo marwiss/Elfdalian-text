@@ -76,12 +76,6 @@
       <CopyLocation>0</CopyLocation>
       <FileType>.htm</FileType>
     </File>
-    <File>
-      <Name>keyman-15.0.268.exe</Name>
-      <Description>File keyman-15.0.268.exe</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.exe</FileType>
-    </File>
   </Files>
   <Keyboards>
     <Keyboard>
