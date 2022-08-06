@@ -151,6 +151,7 @@
         let toc = document.getElementById('toc');
         let headings = [].slice.call(document.body.querySelectorAll('h2, h3'));
         headings.forEach(function (heading, index) {
+            let text = '_' + index;
             if (heading.id == 'innehallsforteckning') {
                 return;
             }
@@ -168,7 +169,9 @@
         });
     }
 
-    window.onload = create_toc; </script>
+    window.onload = create_toc;
+
+    </script>
 </head>
 <body><h1>Älvdalsk text</h1>
 <p>Senast ändrad den 6 augusti 2022.</p>
