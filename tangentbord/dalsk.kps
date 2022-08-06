@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package>
+  <System>
+    <KeymanDeveloperVersion>15.0.268.0</KeymanDeveloperVersion>
+    <FileVersion>7.0</FileVersion>
+  </System>
+  <Options>
+    <ExecuteProgram></ExecuteProgram>
+    <GraphicFile>vapen.png</GraphicFile>
+    <MSIFileName>C:\Users\Martin\WebstormProjects\text\tangentbord\keyman-15.0.268.exe</MSIFileName>
+    <MSIOptions></MSIOptions>
+  </Options>
+  <StartMenu>
+    <Folder></Folder>
+    <Items/>
+  </StartMenu>
+  <Info>
+    <Version URL="">1</Version>
+    <Name URL="">Övdalsk</Name>
+    <Copyright URL="">https://creativecommons.org/licenses/by-sa/3.0/deed.sv</Copyright>
+    <Author URL="mailto:martin@wiss.se">Martin Wiss</Author>
+    <WebSite URL="https://dalsk.ordbok.gratis">https://dalsk.ordbok.gratis</WebSite>
+  </Info>
+  <Files>
+    <File>
+      <Name>dalsk.kmn</Name>
+      <Description>File dalsk.kmn</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmn</FileType>
+    </File>
+    <File>
+      <Name>dalsk.kvk</Name>
+      <Description>File dalsk.kvk</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kvk</FileType>
+    </File>
+    <File>
+      <Name>dalsk.kmx</Name>
+      <Description>Keyboard Övdalsk</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmx</FileType>
+    </File>
+    <File>
+      <Name>dalsk.kvks</Name>
+      <Description>File dalsk.kvks</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kvks</FileType>
+    </File>
+    <File>
+      <Name>dalsk.js</Name>
+      <Description>File dalsk.js</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.js</FileType>
+    </File>
+    <File>
+      <Name>vapen.png</Name>
+      <Description>File vapen.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>Dalrunic.ttf</Name>
+      <Description>Font APIPJA+TNRFull</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>readme.htm</Name>
+      <Description>File readme.htm</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>welcome.htm</Name>
+      <Description>File welcome.htm</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>keyman-15.0.268.exe</Name>
+      <Description>File keyman-15.0.268.exe</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.exe</FileType>
+    </File>
+  </Files>
+  <Keyboards>
+    <Keyboard>
+      <Name>Övdalsk</Name>
+      <ID>dalsk</ID>
+      <Version>1</Version>
+      <Languages>
+        <Language ID="ovd">Elfdalian</Language>
+      </Languages>
+    </Keyboard>
+  </Keyboards>
+  <Strings/>
+</Package>
