@@ -2726,9 +2726,9 @@ Eftersom det är ett internationellt fonetiskt alfabet översättning av engelsk
         <td>U+0294</td>
     </tr>
 </table>
-<h3>Ulum dalskas fonetiska rättstavning</h3>
+<h3>Ulum dalskas fonetiska rättstavning (UDFR)</h3>
 <p>Denna stavning finns återgiven i böckerna Älvdalsk grammatik och Övdalsk ordbok, som är tillgängliga från Ulum dalska.</p>
-<h3>Ljud och deras stavning</h3>
+<h4>Ljud och deras stavning</h4>
 <table class="stylish">
     <tr>
         <th>UD</th><th>IFA</th>
@@ -3615,10 +3615,11 @@ Eftersom det är ett internationellt fonetiskt alfabet översättning av engelsk
 <h2 id="svenska_latin">Svenska latinska alfabetet</h2>
 <p>För att kunna jämföra ljudvärdena för bokstäverna i det äldalska latinska alfabetet, med ljudvärdena för bokstäverna i det svenska
 latinska alfabetet, följer här en beskrivning av bokstäverna i det svenska latinska alfabetet, och deras ljudvärden.</p>
-<h3>Bokstäver</h3>
+
+<h3>Bokstäver och deras uttal</h3>
+<h4>Bokstäver</h4>
 <p>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Å Ä Ö</p>
 <p>a b c d e f g h i j k l m n o p q r s t u v w x y z å ä ö</p>
-<h3>Bokstäver och deras uttal</h3>
 <table class="stylish">
     <tr>
         <th>Namn</th>
@@ -4077,9 +4078,10 @@ latinska alfabetet, följer här en beskrivning av bokstäverna i det svenska la
     det lämpligt att konsekvent skriva dessa bokstäver på ett och samma sätt. Vanligtvis används normaliseringsformat C
     (NFC) av Unicode. Det är därför som NFC används här (förutom vad gäller bokstäverna Ą̊ och ą̊ i det älvdalska
     alfabetet).</p>
-<h3>Ljud</h3>
-<p>a ɑː b d ɖ e ɘ eː f g h ɪ iː j k l ɭ m n ɳ ŋ ʊ uː p r s ʂ ɧ t ɵ ʉː ɕ ʈ v y yː ɔ oː ɛ ɛː æ æː œ øː ɶ ɶː</p>
+
 <h3>Ljud och deras stavning</h3>
+<h4>Ljud</h4>
+<p>a ɑː b d ɖ e ɘ eː f g h ɪ iː j k l ɭ m n ɳ ŋ ʊ uː p r s ʂ ɧ t ɵ ʉː ɕ ʈ v y yː ɔ oː ɛ ɛː æ æː œ øː ɶ ɶː</p>
 <table class="stylish">
     <tr>
         <th>IFA</th>
@@ -4980,10 +4982,11 @@ let svensk_latin_shift_keys = {
 };
 create_keyboard('svensk_latin_shift', svensk_latin_shift_keys)</script>
 <h2 id="alvdalska_latin">Älvdalska latinska alfabetet</h2>
-<h3>Bokstäverna</h3>
+
+<h3>Bokstäver och deras uttal</h3>
+<h4>Bokstäverna</h4>
 <p>A Ą B C D Đ E Ę F G H I Į J K L M N O Ǫ P Q R S T U Ų V W X Y Y̨ Z Å Ą̊ Ä Ö</p>
 <p>a ą b c d đ e ę f g h i į j k l m n o ǫ p q r s t u ų v w x y y̨ z å ą̊ ä ö</p>
-<h3>Bokstäver och deras uttal</h3>
 <table class="stylish">
     <tr>
         <th>Namn</th>
@@ -6828,7 +6831,7 @@ let alvdalsk_latin_alt_shift_keys = {
     54: ''
 };
 create_keyboard('alvdalsk_latin_alt_shift', alvdalsk_latin_alt_shift_keys)</script>
-<h3>Älvdalskt tangentbord för Windows</h3>
+<h4>Älvdalskt tangentbord för Windows</h4>
 <p>Älvdalskt tangentbord för Windows går att ladda ner <a target="_blank" href="./tangentbord/dalsk.kmp">här</a>.</p>
 <p>För att kunna installera tangentbordet behövs även mjukvaran Keyman som är
     tillgängligt <a target="_blank" href="https://keyman.com/windows/download">här</a>.</p>
@@ -8189,9 +8192,7 @@ Kanske är den överstruken eftersom dess ljudvärde historiskt sett varit θ el
         {id: 3, label: "vikingatida\nkortkvistruna\n[a,ä,ɛ]", shape: "square", icon: {face: "dalrunic", code: "ᛆ", color: "black"}, group: 2},
         {id: 4, label: "medeltida\nlångkvistruna\n[ä,ɛ]", shape: "square", icon: {face: "dalrunic", code: "ᛅ", color: "black"}, group: 3},
         {id: 5, label: "medeltida\nkortkvistruna\n[a]", shape: "square", icon: {face: "dalrunic", code: "ᛆ", color: "black"}, group: 3},
-
         {id: 11, label: "medeltida\nkortkvistruna\n[e]", shape: "square", icon: {face: "dalrunic", code: "ᛂ", color: "black"}, group: 3},
-
         {id: 6, label: "dalruna för e\n[ä,ɛ]", shape: "square", icon: {face: "dalrunic", code: "ᛆ", color: "black"}, group: 4},
         {id: 7, label: "dalruna för a\n[a]", shape: "square", icon: {face: "dalrunic", code: "", color: "black"}, group: 4},
         {id: 8, label: "dalruna för a\n[a]", shape: "square", icon: {face: "dalrunic", code: "", color: "black"}, group: 4},
@@ -8209,8 +8210,6 @@ Kanske är den överstruken eftersom dess ljudvärde historiskt sett varit θ el
         {from: 7, to: 8, arrows: 'to', label: "vinklad huvudstav\nförlängd bistav"},
         {from: 4, to: 5, arrows: 'to;from'},
         {from: 11, to: 6, arrows: 'to', label: "alternativ förklaring"},
-
-
     ]);
     data = {nodes: nodes, edges: edges};
     options = {physics: false, nodes: {font: {size: 16, face: 'Dalrunic'}}};
@@ -8340,23 +8339,44 @@ Kanske är den överstruken eftersom dess ljudvärde historiskt sett varit θ el
         <td></td>
     </tr>
 </table>
-<p>För bokstaven g finns en dalruna som ser ganska unik ut och som därför borde vara intressant. Den äldsta varianten
-    ser ut som en medeltida k-runa med ett horisontellt streck. Det skulle kunna tolkas som en medeltida stungen k-runa.
-    Den medeltida stungna k-runan kunde ha ljudvärdet g. Ibland gjordes de stungna runorna genom att tillföra en prick,
-    ibland gjordes de stungna runorna genom att rita en kort horisontell linje i mitten av runan. Antagligen var det
+<p>För bokstaven g finns dalrunor som ser ganska unika ut och som därför borde vara intressanta. Den äldsta varianten
+    av dalrunorna, ser ut som en medeltida k-runa med ett horisontellt streck vid bindestavens nederdel där den ansluter till huvudstaven.
+    Det skulle kunna tolkas som en medeltida stungen k-runa.
+    Den medeltida stungna k-runan hade ljudvärdet g.
+    </p>
+
+<p>Ibland gjordes stungna runorna genom att tillföra en prick,
+    ibland gjordes de stungna runorna genom att rita en kort horisontell linje i stället för en prick. Antagligen var det
     enklare att göra stungna runor med en horisontell linje när kniv användes för att rista runor i trä, och enklare att
-    göra en prick när runorna målades på papper. I nedanstående tabell visas en medeltida stungen k-runa med en prick.
-    Den rätta förlagan skulle istället ha varit en kniv-ristad runa med ett litet streck i mitten av huvudstaven
-    (istället för pricken). De modernare varianterna av denna dalruna skulle ha kunnat skapats genom att rita samma
-    dalruna, dvs. en medeltida stungen k-runa, men inte låta spetsen på kniven släppa underlaget. Då fås en mer böjd
+    göra en prick när de stungna runorna istället målades på papper.</p>
+<p>
+    De modernare varianterna av den stungna k-runan, skulle ha kunnat skapats genom att inte låta spetsen på kniven
+    släppa underlaget när bistaven och styngnet ristas. Då fås en mer böjd och svängig
     linjeföring som hänger ihop med spetsen av huvudstaven. Resultatet blir en form som liknar ett R. Med denna nya form
-    bli också dalrunan för g tydligare att särskilja från dalrunan för k.</p>
+    bli också dalrunan för g tydligare att särskilja från dalrunan för k, vilket borde ha varit praktiskt.</p>
 
 <div class="graph dalrunic" id="bokstaven_g"></div>
 <script type="text/javascript">
     nodes = new vis.DataSet([
+        {id: 1, label: "äldre urnordiska runor\n[k]", shape: "square", icon: {face: "dalrunic", code: "ᚲ", color: "black"}, group: 1},
+        {id: 2, label: "yngre urnordisk runa\n[k]", shape: "square", icon: {face: "dalrunic", code: "", color: "black"}, group: 1},
+        {id: 3, label: "äldre vikingatida\nlångkvistrunor\n[k,g,ng]", shape: "square", icon: {face: "dalrunic", code: "", color: "black"}, group: 2},
+        {id: 5, label: "yngre vikingatida\nstungen långkvistruna\n[g,ng]", shape: "square", icon: {face: "dalrunic", code: "ᚵ", color: "black"}, group: 2},
+        {id: 6, label: "medeltida\nruna\n[k]", shape: "square", icon: {face: "dalrunic", code: "ᚴ", color: "black"}, group: 3},
+        {id: 7, label: "medeltida\nstungen\nruna\n[g]", shape: "square", icon: {face: "dalrunic", code: "ᚵ", color: "black"}, group: 3},
+        {id: 8, label: "dalruna för g\n[g]", shape: "square", icon: {face: "dalrunic", code: "", color: "black"}, group: 4},
+        {id: 9, label: "dalruna för g\n[g]", shape: "square", icon: {face: "dalrunic", code: "", color: "black"}, group: 4},
+        {id: 10, label: "dalrunor för g\n[g]", shape: "square", icon: {face: "dalrunic", code: "", color: "black"}, group: 4},
     ]);
     edges = new vis.DataSet([
+        {from: 1, to: 2, arrows: 'to'},
+        {from: 2, to: 3, arrows: 'to'},
+        {from: 3, to: 5, arrows: 'to'},
+        {from: 3, to: 6, arrows: 'to'},
+        {from: 5, to: 7, arrows: 'to'},
+        {from: 7, to: 8, arrows: 'to', label: 'pricken blir till\nett streck när\nkniv används'},
+        {from: 8, to: 9, arrows: 'to', label: 'stygnet och bistaven\nristas tillsammans\ni ett svep'},
+        {from: 9, to: 10, arrows: 'to', label: 'varianter'},
     ]);
     data = {nodes: nodes, edges: edges};
     options = {physics: false, nodes: {font: {size: 16, face: 'Dalrunic'}}};
@@ -8411,31 +8431,51 @@ Kanske är den överstruken eftersom dess ljudvärde historiskt sett varit θ el
         <td></td>
     </tr>
 </table>
-<p>För bokstaven h har vi en runa som är riktigt intressant. Denna runa används också för bokstaven och ljudvärdet å.
-    Ljudet h finns nämligen egentligen inte i det älvdalska språket. Hela det här stycket borde därför egentligen inte
-    finnas. Men låt oss förklara varför samma runa används för bokstaven å. Den medeltida h-runan uttalades antagligen
-    hå. Men när ljudet h inte finns så kvarstår bara vokalen å. Denna dalruna kom därför så småningom att få ljudvärdet
-    å. Vilket är på sätt och vis passande eftersom det inte finns någon egentlig å-runa i det latinska alfabetet. Vi får
-    anta att det är av detta skäl som å-runan ser precis likaden ut som h-runan. Det är i själva verken en och samma
-    dalruna, tillsammans med det faktum att h inte existerar i den egentliga älvdalskan. Det genuint älvdalska
-    ljudvärdet får bli å (med IFA blir det o). Det som kom att bli h-runan hade först ljudvärdet a i den urnordiska
-    futharken. Skämt åsida, kan det vara så att man i det tidigare urnorden också hade svårt att uttala h-et i denna
-    runa, och att det därför blev en a-runa, i stället för en ha-runa? Varianten av h-dalrunan utan huvudstav tror ha
-    uppkommit på Gotland under medeltiden. Detta se av vissa som ett bevis för att den som sammanställde dalrunorna hade
-    besökt Gotland och studerat de medeltida runorna där. Den icke gotländska varianten förekom dock också. Oavsett om
-    det är gotländsk stil eller inte, så är det ändå samma dalruna. Här ovanför argumenteras för att h-runan fått
-    ljudvärdet o i älvdalen, eftersom älvdalskan saknar ljudet h, och att hå därför kommit att uttalas som å. Det kan
-    därför kanske vara intressant att notera att en runa med exakt samma utseende har det snarlika ljudvärdet io i den
-    anglosaxiska futharken, som dock övergavs flera hundra år före dalrunealfabetets tillkomst. Kan den som skapade
-    dalrunorna ha kännt till anglosaxiska runor, eller var det helt enkelt så att även anglosaxerna hade svårt att
-    uttala h, eller är det bara en tillfällighet? Det är nog bara en tillfällighet. Den anglosaxiska io-runan har nog
-    sannolikt den urnordiska a-runan som förlaga.</p>
+<p>För bokstaven h har vi en dalruna som är ganska intressant. Denna dalruna används också för bokstaven å med ljudvärdet å.
+    Hur kan det komma sig? Ljudet h finns egentligen inte i det älvdalska språket. Det har fallit bort. Ord som på svenska uttalas med, såsom "han"
+    och "hon" uttalas som "an" respektive "ǫ" på älvdalska. Några dalrunska motsvarigheter för bokstaven h borde kanske därför egentligen inte
+    finnas. Istället kanske det vore bättre att låta bokstaven h motsvaras av dalrunsk tystnad.</p>
+
+<p>Kanske hade även älvdalskan en gång i tiden ljudet h. Den medeltida h-runan har då antagligen använts för detta h-ljud.
+    Den medeltida h-runan har då antagligen kallats för "hå" precis som bokstaven h i det latinska alfabetet.
+    Men allt eftersom h-ljudet fallit bort från det älvdalska språket, så har h-runan kommit att kallas för å, istället för hå.
+    Det som var en "hå-runa" blev istället kallat för en "å-runa". Och när runan kallades för å-runa, så kom den att användas för å-ljud (IFA o).</p>
+
+     <p>En annan sak som är anmärkningsvärt med de dalrunor som angivits som motsvarigheter för bokstaven h, är varianten med liggande huvudstav.
+         De flesta varianter har vertikal huvudstav: . Denna variant ser precis likadan ut som den medeltida h-runan.
+         Men i vissa fall förekommer en variant med horisontell huvudstav: . Det som är intressant med denna variant av h-runan är att den hittills,
+         endast har påträffats som dalruna och på Gotland, i form av en gotländsk medeltida h-runa. Det skulle kunna innebära att den som introducerat
+         dalrunorna (eller någon av de som introducerat dalrunorna) har haft någon form av koppling till runskrifter på Gotland.</p><p>
+     Det som är speciellt med runskrifter på Gotland är, att runskrifter använts kontinuerligt ända långt in på 1600-talet. Dvs. det fanns
+     en kontinuerlig tradition av att skriva med runor på Gotland ända fram till dess att dalrunor hade introducerats.
+     Således kan det ha funnits någon form av textmässigt kulturellt utbyte mellan Gotland och Dalarna.
+         Man kanske kände till att man skrev och läste runor både i Dalarna och på Gotland,
+         vilket kan ha lett till ett utbyte av runtexter däremellan. Man kan också notera att det inte enbart är den Gotländska varianten som förekommer.
+     Den normala medeltida h-runan med vertikal huvudstav förekommer också. Men båda varianterna förekommer som dalrunor under flera tidsperioder.</p>
 
 <div class="graph dalrunic" id="bokstaven_h"></div>
 <script type="text/javascript">
     nodes = new vis.DataSet([
+        {id: 10, label: "urnordisk runa\n[j]", shape: "square", icon: {face: "dalrunic", code: "ᛃ", color: "black"}, group: 1},
+        {id: 9, label: "urnordisk runa\n[j]", shape: "square", icon: {face: "dalrunic", code: "", color: "black"}, group: 1},
+        {id: 1, label: "urnordisk runa\n[a]", shape: "square", icon: {face: "dalrunic", code: "ᛡ", color: "black"}, group: 1},
+        {id: 2, label: "vikingatida\nlångkvistruna\n[a,ɛ,ä]", shape: "square", icon: {face: "dalrunic", code: "", color: "black"}, group: 2},
+        {id: 3, label: "vikingatida\nlångkvistruna\n[h]", shape: "square", icon: {face: "dalrunic", code: "", color: "black"}, group: 2},
+        {id: 4, label: "medeltida\nlångkvistruna\n[h,gh]", shape: "square", icon: {face: "dalrunic", code: "", color: "black"}, group: 3},
+        {id: 5, label: "gotländsk\nmedeltida\nlångkvistruna\n[h]", shape: "square", icon: {face: "dalrunic", code: "", color: "black"}, group: 3},
+        {id: 6, label: "dalruna för h\n[h]", shape: "square", icon: {face: "dalrunic", code: "", color: "black"}, group: 4},
+        {id: 7, label: "dalruna för å\n[å]", shape: "square", icon: {face: "dalrunic", code: "", color: "black"}, group: 4},
     ]);
     edges = new vis.DataSet([
+        {from: 10, to: 9, arrows: 'to'},
+        {from: 9, to: 1, arrows: 'to'},
+        {from: 1, to: 2, arrows: 'to', label: 'samma ljud\nen bistav färre'},
+        {from: 1, to: 3, arrows: 'to', label: 'samma form\nnytt ljud'},
+        {from: 3, to: 4, arrows: 'to'},
+        {from: 4, to: 5, arrows: 'to', label: 'liggande huvudstav'},
+        {from: 4, to: 6, arrows: 'to'},
+        {from: 5, to: 6, arrows: 'to'},
+        {from: 6, to: 7, arrows: 'to', label: 'nytt ljudvärde'},
     ]);
     data = {nodes: nodes, edges: edges};
     options = {physics: false, nodes: {font: {size: 16, face: 'Dalrunic'}}};
@@ -8491,16 +8531,34 @@ Kanske är den överstruken eftersom dess ljudvärde historiskt sett varit θ el
     </tr>
 </table>
 <p>Dalrunan för bokstaven i förekommer i två varianter. Dels en variant utan prick, dels en modernare variant med prick.
-    Den moderna varianten med prick kan ha uppkommit för att särskilja dalrunan för bokstaven i för dalrunan för
-    bokstaven s. Dalrunan för bokstaven s antog sannolikt formen av den stavlösa varianten av s-runan, för att särskilja
-    dalrunan för bokstaven s från dalrunan för bokstaven c. Och dalrunan för bokstaven c fick sannolikt formen av
-    dalrunan för bokstaven s för att bokstaven c i vissa ord uttalas som ett s.</p>
+    Den moderna varianten med prick kan ha uppkommit för att särskilja dalrunan för bokstaven i, från dalrunan för
+    bokstaven s. Dalrunan för bokstaven s antog sannolikt formen av den medeltida stavlösa varianten av s-runan, för att särskilja
+    dalrunan för bokstaven s, från dalrunan för bokstaven c. Och dalrunan för bokstaven c fick sannolikt formen av
+    dalrunan för bokstaven s, för att den latinska bokstaven c i vissa ord uttalas som ett s.</p>
 
 <div class="graph dalrunic" id="bokstaven_i"></div>
 <script type="text/javascript">
     nodes = new vis.DataSet([
+    {id: 1, label: "urnordisk runa\n[i]", shape: "square", icon: {face: "dalrunic", code: "ᛁ", color: "black"}, group: 1},
+    {id: 2, label: "äldre vikingatida\nruna\n[i,e,j]", shape: "square", icon: {face: "dalrunic", code: "ᛁ", color: "black"}, group: 2},
+    {id: 3, label: "yngre vikingatida\nruna\n[i,j]", shape: "square", icon: {face: "dalrunic", code: "ᛁ", color: "black"}, group: 2},
+    {id: 4, label: "yngre vikingatida\nstungen runa\n[e]", shape: "square", icon: {face: "dalrunic", code: "ᛂ", color: "black"}, group: 2},
+    {id: 5, label: "medeltida\nruna\n[i,j]", shape: "square", icon: {face: "dalrunic", code: "ᛁ", color: "black"}, group: 3},
+    {id: 6, label: "medeltida\nruna\n[e]", shape: "square", icon: {face: "dalrunic", code: "ᛁ", color: "black"}, group: 3},
+    {id: 7, label: "dalruna för i\n[i,j]", shape: "square", icon: {face: "dalrunic", code: "ᛁ", color: "black"}, group: 4},
+    {id: 8, label: "dalruna för i\n[i,j]", shape: "square", icon: {face: "dalrunic", code: "", color: "black"}, group: 4},
+    {id: 9, label: "latinsk bokstav i\n[i]", shape: "square", icon: {face: "dalrunic", code: "i", color: "black"}, group: 5},
     ]);
     edges = new vis.DataSet([
+        {from: 1, to: 2, arrows: 'to'},
+        {from: 2, to: 3, arrows: 'to'},
+        {from: 2, to: 4, arrows: 'to'},
+        {from: 3, to: 5, arrows: 'to'},
+        {from: 4, to: 6, arrows: 'to'},
+        {from: 5, to: 7, arrows: 'to'},
+        {from: 7, to: 8, arrows: 'to', label: 'för att skilja i-dalrunan\nfrån s-dalrunan'},
+        {from: 9, to: 8, arrows: 'to'},
+
     ]);
     data = {nodes: nodes, edges: edges};
     options = {physics: false, nodes: {font: {size: 16, face: 'Dalrunic'}}};
@@ -8509,53 +8567,8 @@ Kanske är den överstruken eftersom dess ljudvärde historiskt sett varit θ el
 </script>
 
 <h4>J</h4>
-<table class="stylish dalrunic">
-    <tr>
-        <th>1599</th>
-        <th>1600</th>
-        <th>1635</th>
-        <th>1669</th>
-        <th>1600-1700</th>
-        <th>1700</th>
-        <th>1706</th>
-        <th>1708</th>
-        <th>1712</th>
-        <th>1724</th>
-        <th>1726</th>
-        <th>1738</th>
-        <th>1749</th>
-        <th>1750</th>
-        <th>1759</th>
-        <th>1768</th>
-        <th>1773</th>
-        <th>1790</th>
-        <th>1795</th>
-        <th>1832</th>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-</table>
-<p>Se bokstaven I.</p>
+
+<p>Dalrunan för bokstaven i användes för att skriva j. Detta gällde även den medeltida i-runan. Se därför bokstaven I.</p>
 
 <h4>K</h4>
 <table class="stylish dalrunic">
@@ -8610,8 +8623,25 @@ Kanske är den överstruken eftersom dess ljudvärde historiskt sett varit θ el
 <div class="graph dalrunic" id="bokstaven_k"></div>
 <script type="text/javascript">
     nodes = new vis.DataSet([
+        {id: 1, label: "äldre urnordiska runor\n[k]", shape: "square", icon: {face: "dalrunic", code: "ᚲ", color: "black"}, group: 1},
+        {id: 2, label: "yngre urnordisk runa\n[k]", shape: "square", icon: {face: "dalrunic", code: "", color: "black"}, group: 1},
+        {id: 3, label: "äldre vikingatida\nlångkvistrunor\n[k,g,ng]", shape: "square", icon: {face: "dalrunic", code: "", color: "black"}, group: 2},
+        {id: 5, label: "yngre vikingatida\nstungen långkvistruna\n[g,ng]", shape: "square", icon: {face: "dalrunic", code: "ᚵ", color: "black"}, group: 2},
+        {id: 6, label: "medeltida\nruna\n[k]", shape: "square", icon: {face: "dalrunic", code: "ᚴ", color: "black"}, group: 3},
+        {id: 7, label: "medeltida\nstungen\nruna\n[g]", shape: "square", icon: {face: "dalrunic", code: "ᚵ", color: "black"}, group: 3},
+        {id: 8, label: "dalruna för g\n[g]", shape: "square", icon: {face: "dalrunic", code: "", color: "black"}, group: 4},
+        {id: 9, label: "dalruna för g\n[g]", shape: "square", icon: {face: "dalrunic", code: "", color: "black"}, group: 4},
+        {id: 10, label: "dalrunor för g\n[g]", shape: "square", icon: {face: "dalrunic", code: "", color: "black"}, group: 4},
     ]);
     edges = new vis.DataSet([
+        {from: 1, to: 2, arrows: 'to'},
+        {from: 2, to: 3, arrows: 'to'},
+        {from: 3, to: 5, arrows: 'to'},
+        {from: 3, to: 6, arrows: 'to'},
+        {from: 5, to: 7, arrows: 'to'},
+        {from: 7, to: 8, arrows: 'to', label: 'pricken blir till\nett streck när\nkniv används'},
+        {from: 8, to: 9, arrows: 'to', label: 'stygnet och bistaven\nristas tillsammans\ni ett svep'},
+        {from: 9, to: 10, arrows: 'to', label: 'varianter'},
     ]);
     data = {nodes: nodes, edges: edges};
     options = {physics: false, nodes: {font: {size: 16, face: 'Dalrunic'}}};
@@ -11736,7 +11766,7 @@ create_keyboard('alvdalsk_dalrunor', alvdalsk_dalrunor_keys)</script>
     </tr>
 </table>
 
-<h3 id="vikingatida_runor">Vikingatida runor</h3>
+<h4 id="vikingatida_runor">Vikingatida runor</h4>
 
 <table class="stylish dalrunic">
     <tr><td colspan="6">Vikingatida långkvistrunor från äldre perioden</td></tr>
@@ -11851,7 +11881,7 @@ Vikingatida långkvistrunor från yngre perioden
 <img src="bilder/stavlosa.png" width="600">
 
 
-<h3 id="medeltida_runor">Medeltida runor</h3>
+<h4 id="medeltida_runor">Medeltida runor</h4>
 
 
 
